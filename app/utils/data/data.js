@@ -37,7 +37,7 @@ const links = [
     description:
       "The largest web design and iOS library for UX/UI inspiration, featuring real-life products and perfectly organized to fuel your creativity.",
     icon: refro_logo,
-    link: "",
+    link: "https://refero.design/",
   },
   {
     title: "svgl.app",
@@ -46,7 +46,7 @@ const links = [
     description:
       "Library for high-quality SVG logos across various categories, designed for developers and designers. It offers a search and download interface.",
     icon: svgl_logo,
-    link: "",
+    link: "https://svgl.app",
   },
   {
     title: "Navbar.gallery",
@@ -55,7 +55,7 @@ const links = [
     description:
       "Best Navbar Design Inspiration Websites. Find the best navigation bar examples for your design.",
     icon: navbar_gallery_logo,
-    link: "",
+    link: "https://www.navbar.gallery/",
   },
   {
     title: "Curated.design",
@@ -64,7 +64,7 @@ const links = [
     description:
       "Resource hub for designers, featuring a library of handpicked design tools, templates, inspirations and offers categorized content.",
     icon: curated_design_logo,
-    link: "",
+    link: "https://www.curated.design/",
   },
   {
     title: "Layers.to",
@@ -73,7 +73,7 @@ const links = [
     description:
       "Collaborative platform for designers to share work, discover inspiration and connect with peers and exploring job opportunities.",
     icon: layers_logo,
-    link: "",
+    link: "https://layers.to/",
   },
   {
     title: "Mobbin.com",
@@ -82,7 +82,7 @@ const links = [
     description:
       "Powerful tool for UI/UX designers seeking inspiration and innovative design solutions. This platform offers a vast collection of real-world mobile app designs.",
     icon: mobbin_logo,
-    link: "",
+    link: "https://mobbin.com/",
   },
   {
     title: "Footer.design",
@@ -91,7 +91,7 @@ const links = [
     description:
       "Curated collection of creative footer styles, categorized by type and aesthetic, to help web designers find tailored inspiration. ​",
     icon: footer_design_logo,
-    link: "",
+    link: "https://www.footer.design/",
   },
   {
     title: "Claude.ai",
@@ -253,7 +253,7 @@ const links = [
     description:
       "Brandfetch gives you instant access to millions of logos, colors, fonts, and more so you can elevate your designs.",
     icon: brandfetch_logo,
-    link: "https://brandfetch.io/",
+    link: "https://brandfetch.com/",
   },
   {
     title: "Linear",
@@ -289,7 +289,7 @@ const links = [
     description:
       "Cursor AI is an innovative AI-powered code editor designed to streamline and enhance the coding process.",
     icon: cursor_logo,
-    link: "https://cursor.app/",
+    link: "https://www.cursor.com/",
   },
   {
     title: "Nx.dev",
