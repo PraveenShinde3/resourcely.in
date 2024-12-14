@@ -8,7 +8,9 @@ export default function Sidebar() {
           <div key={`${category.name}-${index}`}>
             <button className="flex items-center justify-between w-full px-3 py-2 text-sm rounded-lg hover:bg-gray-100">
               <span>{category.name}</span>
-              <span className="text-gray-500">{category.count}</span>
+              <span className="text-gray-800 py-[1px] px-3 rounded-xl bg-zinc-100">
+                {category.count}
+              </span>
             </button>
           </div>
         ))}

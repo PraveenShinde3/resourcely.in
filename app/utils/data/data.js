@@ -303,6 +303,13 @@ const links = [
 ];
 
 const categories = links.reduce((acc, link) => {
+  const allCategory = acc.find((item) => item.name === "All");
+  if (allCategory) {
+    allCategory.count += 1;
+  } else {
+    acc.push({ name: "All", count: 1 });
+  }
+
   const existingCategory = acc.find((item) => item.name === link.category);
 
   if (existingCategory) {

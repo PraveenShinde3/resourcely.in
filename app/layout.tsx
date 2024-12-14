@@ -35,6 +35,7 @@ export default function RootLayout({
                 width={8}
                 height={8}
                 className="w-6 h-6"
+                priority
               />
               <span className="font-bold">LINKSFORDEV</span>
               <span className="text-[10px] font-medium bg-zinc-100 px-2 py-[1px] rounded-xl absolute -top-1 -right-10">
