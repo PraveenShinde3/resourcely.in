@@ -5,11 +5,11 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 
 export function SubmitLinkForm() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // Handle form submission logic here
-    console.log("Form submitted");
-  };
+  // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   // Handle form submission logic here
+  //   console.log("Form submitted");
+  // };
 
   return (
     <Dialog.Root>
@@ -24,9 +24,10 @@ export function SubmitLinkForm() {
           Submit a new link
         </Dialog.Title>
         <Dialog.Description className="mt-2 text-sm text-gray-500">
-          Fill out the form below to submit a new link to DevLinks.
+          Open an <b>issue</b> and will take a look and update the links
+          accordingly{" "}
         </Dialog.Description>
-        <form onSubmit={handleSubmit} className="mt-4">
+        {/* <form onSubmit={handleSubmit} className="mt-4">
           <div className="space-y-4">
             <div>
               <label
@@ -111,10 +112,10 @@ export function SubmitLinkForm() {
               Submit
             </button>
           </div>
-        </form>
+        </form> */}
         <Dialog.Close asChild>
           <button
-            className="absolute right-4 top-4 rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-black"
+            className="absolute outline-none right-4 top-4 rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none "
             aria-label="Close"
           >
             <Cross2Icon />
