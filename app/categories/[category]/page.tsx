@@ -6,9 +6,9 @@ import { links } from "@/app/utils/data/data";
 import Link from "next/link";
 
 interface DynamicPageProps {
-  params: {
+  params: Promise<{
     category: string;
-  };
+  }>;
 }
 
 const page = async ({ params }: DynamicPageProps) => {
