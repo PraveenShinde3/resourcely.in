@@ -11,7 +11,7 @@ interface DynamicPageProps {
   };
 }
 
-const page: React.FC<DynamicPageProps> = async ({ params }) => {
+const page = async ({ params }: DynamicPageProps) => {
   const { category } = await params;
   const filteredLinks = links.filter(
     (link) => link.category.toLowerCase() === category.toLowerCase()
