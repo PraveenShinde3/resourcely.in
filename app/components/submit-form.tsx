@@ -24,8 +24,8 @@ export function SubmitLinkForm() {
           Submit a new link
         </Dialog.Title>
         <Dialog.Description className="mt-2 text-sm text-gray-500">
-          Open an <b>issue</b> and will take a look and update the links
-          accordingly{" "}
+          Open an <b>issue</b> in github repo and will take a look and update
+          the links accordingly{" "}
         </Dialog.Description>
         {/* <form onSubmit={handleSubmit} className="mt-4">
           <div className="space-y-4">
