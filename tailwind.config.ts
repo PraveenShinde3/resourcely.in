@@ -8,6 +8,19 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        slideUp: "slideUp 0.4s ease-in-out",
+      },
+      keyframes: {
+        slideUp: {
+          from: {
+            transform: "translateY(5%)",
+          },
+          to: {
+            transform: "translateY(0)",
+          },
+        },
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

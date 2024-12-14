@@ -307,7 +307,7 @@ const categories = links.reduce((acc, link) => {
   if (allCategory) {
     allCategory.count += 1;
   } else {
-    acc.push({ name: "All", count: 1 });
+    acc.push({ name: "All", count: 1, url: "/" });
   }
 
   const existingCategory = acc.find((item) => item.name === link.category);
@@ -315,7 +315,11 @@ const categories = links.reduce((acc, link) => {
   if (existingCategory) {
     existingCategory.count += 1;
   } else {
-    acc.push({ name: link.category, count: 1 });
+    acc.push({
+      name: link.category,
+      count: 1,
+      url: "/categories/" + link.category.toLowerCase(),
+    });
   }
 
   return acc;
