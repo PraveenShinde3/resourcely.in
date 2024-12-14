@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import SearchBar from "./components/search-bar";
 import Sidebar from "./components/sidebar";
 import Image from "next/image";
 import icon from "../public/devlinks.svg";
@@ -46,10 +45,7 @@ export default function RootLayout({
           </header>
           <div className="flex">
             <Sidebar />
-            <main className="flex-1 p-6">
-              <SearchBar />
-              {children}
-            </main>
+            <main className="flex-1 p-6">{children}</main>
           </div>
         </div>
       </body>
