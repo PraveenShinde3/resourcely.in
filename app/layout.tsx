@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import SearchBar from "./components/search-bar";
+import Sidebar from "./components/sidebar";
+import Image from "next/image";
+import icon from "../public/devlinks.svg";
+import { SubmitLinkForm } from "./components/submit-form";
 
 const inter = Inter({
   subsets: ["latin"], // You can customize the subsets
@@ -20,7 +25,33 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}  antialiased`}>{children}</body>
+      <body className={`${inter.className}  antialiased`}>
+        <div className="h-screen overflow-hidden">
+          <header className="flex items-center justify-between px-6 h-14 border-b">
+            <div className="flex items-center gap-2 relative">
+              <Image
+                src={icon}
+                alt="DevLinks Logo"
+                width={8}
+                height={8}
+                className="w-6 h-6"
+              />
+              <span className="font-bold">LINKSFORDEV</span>
+              <span className="text-[10px] font-medium bg-zinc-100 px-2 py-[1px] rounded-xl absolute -top-1 -right-10">
+                Beta
+              </span>
+            </div>
+            <SubmitLinkForm />
+          </header>
+          <div className="flex">
+            <Sidebar />
+            <main className="flex-1 p-6">
+              <SearchBar />
+              {children}
+            </main>
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
