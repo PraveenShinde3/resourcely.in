@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="animate-slideUp">
       <SearchBar onSearch={handleSearch} />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4 xl:grid-cols-3 overflow-y-auto max-h-[calc(100vh-9rem)]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4 xl:grid-cols-3 overflow-y-auto max-h-[calc(100vh-11rem)] sm:max-h-[calc(100vh-9rem)] [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
         {filteredLinks.map((link) => (
           <LinkCard key={link.title} {...link} />
         ))}
