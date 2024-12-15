@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className}  antialiased`}>
         <div className="h-screen overflow-hidden">
-          <header className="flex items-center justify-between px-6 h-14 border-b">
+          <header className="flex items-center justify-between px-2 sm:px-6 h-14 border-b">
             <div className="flex items-center gap-2 relative">
               <Image
                 src={icon}

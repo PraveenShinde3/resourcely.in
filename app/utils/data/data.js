@@ -28,6 +28,10 @@ import miro_logo from "../../../public/library/icons/miro.svg";
 import replit_logo from "../../../public/library/icons/replit.svg";
 import cursor_logo from "../../../public/library/icons/cursor.svg";
 import nx_logo from "../../../public/library/icons/nx.svg";
+import killer_portfolio_logo from "../../../public/library/icons/killer-portfolio.svg";
+import vs_code_logo from "../../../public/library/icons/vscode.svg";
+import shots_so_logo from "../../../public/library/icons/shots-so.svg";
+import wall_of_portfolios_logo from "../../../public/library/icons/wall-of-portfolios.svg";
 
 const links = [
   {
@@ -299,6 +303,42 @@ const links = [
       "Nx.dev is a powerful, extensible build system and monorepo management tool for modern web applications",
     icon: nx_logo,
     link: "https://nx.dev/",
+  },
+  {
+    title: "Killer Portfolio",
+    category: "Design",
+    subcategory: "Inspiration",
+    description:
+      "Portfolio Website Showcase, a curated selection of beautifully designed, super effective portfolio websites",
+    icon: killer_portfolio_logo,
+    link: "https://killerportfolio.com/",
+  },
+  {
+    title: "Vs Code",
+    category: "Development",
+    subcategory: "IDE",
+    description:
+      "Visual Studio Code, commonly referred to as VS Code, is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers",
+    icon: vs_code_logo,
+    link: "https://code.visualstudio.com/",
+  },
+  {
+    title: "Shots.so",
+    category: "Productivity",
+    subcategory: "Image",
+    description:
+      "Shot.so is an online platform that allows users to create, share, and collect high-quality photos",
+    icon: shots_so_logo,
+    link: "https://shots.so/",
+  },
+  {
+    title: "Wall Of Portfolios",
+    category: "Design",
+    subcategory: "Inspiration",
+    description:
+      "Wall of Portfolios showcases the best design portfolios from UX, UI, and product designers for desing inspirations.",
+    icon: wall_of_portfolios_logo,
+    link: "https://www.wallofportfolios.com/",
   },
 ];
 
