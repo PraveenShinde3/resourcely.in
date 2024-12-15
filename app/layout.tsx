@@ -43,7 +43,7 @@ export default function RootLayout({
             </div>
             <SubmitLinkForm />
           </header>
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <Sidebar />
             <main className="flex-1 p-6">{children}</main>
           </div>
