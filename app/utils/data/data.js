@@ -28,6 +28,10 @@ import miro_logo from "../../../public/library/icons/miro.svg";
 import replit_logo from "../../../public/library/icons/replit.svg";
 import cursor_logo from "../../../public/library/icons/cursor.svg";
 import nx_logo from "../../../public/library/icons/nx.svg";
+import killer_portfolio_logo from "../../../public/library/icons/killer-portfolio.svg";
+import vs_code_logo from "../../../public/library/icons/vscode.svg";
+import shots_so_logo from "../../../public/library/icons/shots-so.svg";
+import wall_of_portfolios_logo from "../../../public/library/icons/wall-of-portfolios.svg";
 
 const links = [
   {
@@ -37,7 +41,7 @@ const links = [
     description:
       "The largest web design and iOS library for UX/UI inspiration, featuring real-life products and perfectly organized to fuel your creativity.",
     icon: refro_logo,
-    link: "",
+    link: "https://refero.design/",
   },
   {
     title: "svgl.app",
@@ -46,7 +50,7 @@ const links = [
     description:
       "Library for high-quality SVG logos across various categories, designed for developers and designers. It offers a search and download interface.",
     icon: svgl_logo,
-    link: "",
+    link: "https://svgl.app",
   },
   {
     title: "Navbar.gallery",
@@ -55,7 +59,7 @@ const links = [
     description:
       "Best Navbar Design Inspiration Websites. Find the best navigation bar examples for your design.",
     icon: navbar_gallery_logo,
-    link: "",
+    link: "https://www.navbar.gallery/",
   },
   {
     title: "Curated.design",
@@ -64,7 +68,7 @@ const links = [
     description:
       "Resource hub for designers, featuring a library of handpicked design tools, templates, inspirations and offers categorized content.",
     icon: curated_design_logo,
-    link: "",
+    link: "https://www.curated.design/",
   },
   {
     title: "Layers.to",
@@ -73,7 +77,7 @@ const links = [
     description:
       "Collaborative platform for designers to share work, discover inspiration and connect with peers and exploring job opportunities.",
     icon: layers_logo,
-    link: "",
+    link: "https://layers.to/",
   },
   {
     title: "Mobbin.com",
@@ -82,7 +86,7 @@ const links = [
     description:
       "Powerful tool for UI/UX designers seeking inspiration and innovative design solutions. This platform offers a vast collection of real-world mobile app designs.",
     icon: mobbin_logo,
-    link: "",
+    link: "https://mobbin.com/",
   },
   {
     title: "Footer.design",
@@ -91,7 +95,7 @@ const links = [
     description:
       "Curated collection of creative footer styles, categorized by type and aesthetic, to help web designers find tailored inspiration. ​",
     icon: footer_design_logo,
-    link: "",
+    link: "https://www.footer.design/",
   },
   {
     title: "Claude.ai",
@@ -253,7 +257,7 @@ const links = [
     description:
       "Brandfetch gives you instant access to millions of logos, colors, fonts, and more so you can elevate your designs.",
     icon: brandfetch_logo,
-    link: "https://brandfetch.io/",
+    link: "https://brandfetch.com/",
   },
   {
     title: "Linear",
@@ -289,7 +293,7 @@ const links = [
     description:
       "Cursor AI is an innovative AI-powered code editor designed to streamline and enhance the coding process.",
     icon: cursor_logo,
-    link: "https://cursor.app/",
+    link: "https://www.cursor.com/",
   },
   {
     title: "Nx.dev",
@@ -299,6 +303,42 @@ const links = [
       "Nx.dev is a powerful, extensible build system and monorepo management tool for modern web applications",
     icon: nx_logo,
     link: "https://nx.dev/",
+  },
+  {
+    title: "Killer Portfolio",
+    category: "Design",
+    subcategory: "Inspiration",
+    description:
+      "Portfolio Website Showcase, a curated selection of beautifully designed, super effective portfolio websites",
+    icon: killer_portfolio_logo,
+    link: "https://killerportfolio.com/",
+  },
+  {
+    title: "Vs Code",
+    category: "Development",
+    subcategory: "IDE",
+    description:
+      "Visual Studio Code, commonly referred to as VS Code, is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers",
+    icon: vs_code_logo,
+    link: "https://code.visualstudio.com/",
+  },
+  {
+    title: "Shots.so",
+    category: "Productivity",
+    subcategory: "Image",
+    description:
+      "Shot.so is an online platform that allows users to create, share, and collect high-quality photos",
+    icon: shots_so_logo,
+    link: "https://shots.so/",
+  },
+  {
+    title: "Wall Of Portfolios",
+    category: "Design",
+    subcategory: "Inspiration",
+    description:
+      "Wall of Portfolios showcases the best design portfolios from UX, UI, and product designers for desing inspirations.",
+    icon: wall_of_portfolios_logo,
+    link: "https://www.wallofportfolios.com/",
   },
 ];
 

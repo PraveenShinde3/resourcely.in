@@ -26,6 +26,7 @@ export default function LinkCard({
             <div className="flex items-center gap-2 mb-1">
               <a
                 href={link}
+                target="_blank"
                 className="outline-none font-medium hover:underline underline-offset-4"
               >
                 {title}

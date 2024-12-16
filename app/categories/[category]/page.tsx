@@ -1,21 +1,32 @@
-import React from "react";
+"use client";
+import { useMemo, useState } from "react";
 import { ArrowLeftIcon } from "@radix-ui/react-icons";
 import SearchBar from "@/app/components/search-bar";
 import LinkCard from "@/app/components/link-card";
 import { links } from "@/app/utils/data/data";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
-interface DynamicPageProps {
-  params: Promise<{
-    category: string;
-  }>;
-}
+const Page = () => {
+  const params = useParams();
+  const category = params.category as string;
+  const [searchQuery, setSearchQuery] = useState("");
 
-const page = async ({ params }: DynamicPageProps) => {
-  const { category } = await params;
-  const filteredLinks = links.filter(
-    (link) => link.category.toLowerCase() === category.toLowerCase()
-  );
+  const filteredLinks = useMemo(() => {
+    return links.filter((link) => {
+      const searchContent =
+        `${link.title} ${link.category} ${link.subcategory} ${link.description}`.toLowerCase();
+      return (
+        searchContent.includes(searchQuery.toLowerCase()) &&
+        link.category.toLowerCase() === category.toLowerCase()
+      );
+    });
+  }, [searchQuery, category]);
+
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+  };
+
   return (
     <div className="animate-slideUp">
       <div className="flex gap-1 items-center pb-2">
@@ -27,8 +38,8 @@ const page = async ({ params }: DynamicPageProps) => {
         </Link>
         <p className="capitalize font-medium">{category}</p>
       </div>
-      <SearchBar />
-      <div className=" grid grid-cols-1 gap-4 py-4 lg:grid-cols-3 overflow-y-auto max-h-[calc(100vh-9rem)]">
+      <SearchBar onSearch={handleSearch} />
+      <div className=" grid grid-cols-1 gap-4 py-4 md:grid-cols-2 xl:grid-cols-3 overflow-y-auto max-h-[calc(100vh-11rem)] sm:max-h-[calc(100vh-9rem)] [&::-webkit-scrollbar]:hidden">
         {filteredLinks.map((link) => (
           <LinkCard key={link.title} {...link} />
         ))}
@@ -37,4 +48,4 @@ const page = async ({ params }: DynamicPageProps) => {
   );
 };
 
-export default page;
+export default Page;
