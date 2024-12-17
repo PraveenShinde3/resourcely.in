@@ -5,6 +5,7 @@ import SearchBar from "@/app/components/search-bar";
 import LinkCard from "@/app/components/link-card";
 import { links } from "@/app/utils/data/data";
 import Link from "next/link";
+import { NotFound } from "@/app/components/not-found";
 import { useParams } from "next/navigation";
 
 const Page = () => {
@@ -27,6 +28,13 @@ const Page = () => {
     setSearchQuery(query);
   };
 
+  const handleSubmitResource = () => {
+    window.open(
+      "https://github.com/PraveenShinde3/resourcely.in/issues/new",
+      "_blank"
+    );
+  };
+
   return (
     <div className="animate-slideUp">
       <div className="flex gap-1 items-center pb-2">
@@ -39,11 +47,15 @@ const Page = () => {
         <p className="capitalize font-medium">{category}</p>
       </div>
       <SearchBar onSearch={handleSearch} />
-      <div className=" grid grid-cols-1 gap-4 py-4 md:grid-cols-2 xl:grid-cols-3 overflow-y-auto max-h-[calc(100vh-11rem)] sm:max-h-[calc(100vh-9rem)] [&::-webkit-scrollbar]:hidden">
-        {filteredLinks.map((link) => (
-          <LinkCard key={link.title} {...link} />
-        ))}
-      </div>
+      {filteredLinks.length > 0 ? (
+        <div className="grid grid-cols-1 gap-4 py-4 md:grid-cols-2 xl:grid-cols-3 overflow-y-auto max-h-[calc(100vh-11rem)] sm:max-h-[calc(100vh-9rem)] [&::-webkit-scrollbar]:hidden">
+          {filteredLinks.map((link) => (
+            <LinkCard key={link.title} {...link} />
+          ))}
+        </div>
+      ) : (
+        <NotFound onSubmit={handleSubmitResource} searchQuery={searchQuery} />
+      )}
     </div>
   );
 };
