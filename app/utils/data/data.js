@@ -50,6 +50,19 @@ import shipfast_logo from "../../../public/library/icons/shipfast.svg";
 import expo_logo from "../../../public/library/icons/expo.svg";
 import three_js_logo from "../../../public/library/icons/threejs.svg";
 import aceternity_ui_logo from "../../../public/library/icons/acertinity-ui.svg";
+import d3_js_logo from "../../../public/library/icons/d3-js.svg";
+import perplexity_ai_logo from "../../../public/library/icons/perplexity.svg";
+import responsively_logo from "../../../public/library/icons/responsively.svg";
+import ui_colors_logo from "../../../public/library/icons/uicolors.svg";
+import graphql_editor_logo from "../../../public/library/icons/graphql-editor.svg";
+import magic_ui_logo from "../../../public/library/icons/magic-ui.svg";
+import motion_primitives_logo from "../../../public/library/icons/motion-primitives.svg";
+import universe_io_logo from "../../../public/library/icons/uiverse.svg";
+import eva_icons_logo from "../../../public/library/icons/eva-icons.svg";
+import documenso_logo from "../../../public/library/icons/documenso.svg";
+import screen_studio_logo from "../../../public/library/icons/screen-studio.svg";
+import loom_logo from "../../../public/library/icons/loom.svg";
+import animista_logo from "../../../public/library/icons/animista.svg";
 
 const links = [
   {
@@ -519,6 +532,123 @@ const links = [
       "Copy paste libraray for trending components and use them in your websites without having to worry about styling and animations.",
     icon: aceternity_ui_logo,
     link: "https://aceternityui.com/",
+  },
+  {
+    title: "D3.js",
+    category: "Development",
+    subcategory: "Visualization",
+    description:
+      "The JavaScript library for data visualization. Create custom dynamic visualizations with unparalleled flexibility",
+    icon: d3_js_logo,
+    link: "https://d3js.org/",
+  },
+  {
+    title: "Perplexity.ai",
+    category: "AI",
+    subcategory: "Search ",
+    description:
+      "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.",
+    icon: perplexity_ai_logo,
+    link: "https://perplexity.ai/",
+  },
+  {
+    title: "Responsively",
+    category: "Development",
+    subcategory: "Tool",
+    description:
+      "Responsively is a developer-focused browser that helps you design and test responsive websites across multiple devices simultaneously",
+    icon: responsively_logo,
+    link: "https://responsively.app/",
+  },
+  {
+    title: "UI Colors",
+    category: "Design",
+    subcategory: "Colors",
+    description:
+      "Tool for generating beautiful, accessible color palettes tailored for modern UI design.",
+    icon: ui_colors_logo,
+    link: "https://uicolors.co/",
+  },
+  {
+    title: "GraphQL Editor",
+    category: "Development",
+    subcategory: "GraphQL",
+    description:
+      "Powerful tool for designing, visualizing, and managing GraphQL schemas with an intuitive interface",
+    icon: graphql_editor_logo,
+    link: "https://graphqleditor.com/",
+  },
+  {
+    title: "Magic UI",
+    category: "Development",
+    subcategory: "UI",
+    description:
+      "50+ free and open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. Perfect companion for shadcn/ui.",
+    icon: magic_ui_logo,
+    link: "https://magic.reactjs.com/",
+  },
+  {
+    title: "Motion Primitives",
+    category: "Development",
+    subcategory: "UI Components",
+    description:
+      "UI kit beautifully designed motions components. Easy copy-paste. Customizable. Open Source. Built for engineers and designers.",
+    icon: motion_primitives_logo,
+    link: "https://motion-primitives.com/",
+  },
+  {
+    title: "Uiverse.io",
+    category: "Development",
+    subcategory: "UI",
+    description:
+      "Community-driven platform that offers a collection of customizable and interactive UI components for developers and designers.",
+    icon: universe_io_logo,
+    link: "https://universe.io/",
+  },
+  {
+    title: "Eva Icons",
+    category: "Design",
+    subcategory: "Icons",
+    description:
+      "Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items",
+    icon: eva_icons_logo,
+    link: "https://akveo.github.io/eva-icons/",
+  },
+  {
+    title: "Documenso",
+    category: "Productivity",
+    subcategory: "Docs",
+    description:
+      "Documenso is an open-source platform for managing and signing documents securely and efficiently",
+    icon: documenso_logo,
+    link: "https://documenso.com/",
+  },
+  {
+    title: "Screen Studio",
+    category: "Productivity",
+    subcategory: "Screen Recorder",
+    description:
+      "Beautiful Screen Recordings in Minutes. Screen Recorder producing high-impact videos automatically. Designed for macOS.",
+    icon: screen_studio_logo,
+    link: "https://screen.studio/",
+  },
+  {
+    title: "Loom",
+    category: "Productivity",
+    subcategory: "Video Recorder",
+    description:
+      "Easily record and share AI-powered video messages with your teammates and customers to supercharge productivity",
+    icon: loom_logo,
+    link: "https://www.loom.com/",
+  },
+  {
+    title: "Animista",
+    category: "Development",
+    subcategory: "Animation",
+    description:
+      "Animista is a web-based tool for creating and customizing CSS animations with ease",
+    icon: animista_logo,
+    link: "https://animista.net/",
   },
 ];
 
