@@ -46,7 +46,7 @@ const Page = () => {
         </Link>
         <p className="capitalize font-medium">{category}</p>
       </div>
-      <SearchBar onSearch={handleSearch} />
+      <SearchBar onSearch={handleSearch} initialQuery={searchQuery} />
       {filteredLinks.length > 0 ? (
         <div className="grid grid-cols-1 gap-4 py-4 md:grid-cols-2 xl:grid-cols-3 overflow-y-auto max-h-[calc(100vh-11rem)] sm:max-h-[calc(100vh-9rem)] [&::-webkit-scrollbar]:hidden">
           {filteredLinks.map((link) => (
