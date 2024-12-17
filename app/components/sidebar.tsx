@@ -17,7 +17,7 @@ export default function Sidebar() {
               } hover:bg-gray-100`}
             >
               <span>{category.name}</span>
-              <span className="text-gray-800 py-[1px] px-3 rounded-xl bg-zinc-100">
+              <span className="text-gray-800 py-[1px] px-3 rounded-xl text-[0.75rem] bg-zinc-100">
                 {category.count}
               </span>
             </Link>
