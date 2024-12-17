@@ -25,9 +25,9 @@ export default function SearchBar({ onSearch, initialQuery }: SearchBarProps) {
 
     const params = new URLSearchParams(searchParams.toString());
     if (debouncedSearchQuery) {
-      params.set("q", debouncedSearchQuery);
+      params.set("query", debouncedSearchQuery);
     } else {
-      params.delete("q");
+      params.delete("query");
     }
     if (params.toString() !== searchParams.toString()) {
       router.push(`?${params.toString()}`, { scroll: false });
