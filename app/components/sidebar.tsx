@@ -7,7 +7,7 @@ export default function Sidebar() {
   const pathname = usePathname();
   return (
     <aside className="w-full overflow-x-auto sm:w-64 h-fit border-r sm:h-[calc(100vh-3.5rem)] -ms-overflow-style-none [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar]:h-1">
-      <nav className="p-2 sm:p-4 space-x-1 sm:space-y-1 flex sm:flex-col">
+      <nav className="p-2 sm:p-4 space-x-1 sm:space-x-0 sm:space-y-1 flex sm:flex-col">
         {categories.map((category, index) => (
           <div key={`${category.name}-${index}`}>
             <Link

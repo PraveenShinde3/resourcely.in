@@ -44,7 +44,7 @@ export default function LinkCard({
             alt="logo"
             width={8}
             height={8}
-            className="w-8 h-8 rounded-md"
+            className="w-8 h-8"
           />
         </div>
         <div className=" w-full">
