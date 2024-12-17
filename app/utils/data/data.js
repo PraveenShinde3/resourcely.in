@@ -32,6 +32,37 @@ import killer_portfolio_logo from "../../../public/library/icons/killer-portfoli
 import vs_code_logo from "../../../public/library/icons/vscode.svg";
 import shots_so_logo from "../../../public/library/icons/shots-so.svg";
 import wall_of_portfolios_logo from "../../../public/library/icons/wall-of-portfolios.svg";
+import zed_logo from "../../../public/library/icons/zed.svg";
+import origin_ui_logo from "../../../public/library/icons/origin-ui.svg";
+import next_ui_logo from "../../../public/library/icons/next-ui.svg";
+import mintlify_logo from "../../../public/library/icons/mintlify.svg";
+import resend_logo from "../../../public/library/icons/resend.svg";
+import digital_ocean_logo from "../../../public/library/icons/digitalocean.svg";
+import raycast_logo from "../../../public/library/icons/raycast.svg";
+import google_font_logo from "../../../public/library/icons/google-font.svg";
+import coolshapes_logo from "../../../public/library/icons/coolshapes.svg";
+import coolify_logo from "../../../public/library/icons/coolify.svg";
+import clerk_logo from "../../../public/library/icons/clerk.svg";
+import render_logo from "../../../public/library/icons/render.svg";
+import wix_logo from "../../../public/library/icons/wix.svg";
+import remix_logo from "../../../public/library/icons/remix.svg";
+import shipfast_logo from "../../../public/library/icons/shipfast.svg";
+import expo_logo from "../../../public/library/icons/expo.svg";
+import three_js_logo from "../../../public/library/icons/threejs.svg";
+import aceternity_ui_logo from "../../../public/library/icons/acertinity-ui.svg";
+import d3_js_logo from "../../../public/library/icons/d3-js.svg";
+import perplexity_ai_logo from "../../../public/library/icons/perplexity.svg";
+import responsively_logo from "../../../public/library/icons/responsively.svg";
+import ui_colors_logo from "../../../public/library/icons/uicolors.svg";
+import graphql_editor_logo from "../../../public/library/icons/graphql-editor.svg";
+import magic_ui_logo from "../../../public/library/icons/magic-ui.svg";
+import motion_primitives_logo from "../../../public/library/icons/motion-primitives.svg";
+import universe_io_logo from "../../../public/library/icons/uiverse.svg";
+import eva_icons_logo from "../../../public/library/icons/eva-icons.svg";
+import documenso_logo from "../../../public/library/icons/documenso.svg";
+import screen_studio_logo from "../../../public/library/icons/screen-studio.svg";
+import loom_logo from "../../../public/library/icons/loom.svg";
+import animista_logo from "../../../public/library/icons/animista.svg";
 
 const links = [
   {
@@ -339,6 +370,285 @@ const links = [
       "Wall of Portfolios showcases the best design portfolios from UX, UI, and product designers for desing inspirations.",
     icon: wall_of_portfolios_logo,
     link: "https://www.wallofportfolios.com/",
+  },
+  {
+    title: "Zed",
+    category: "Productivity",
+    subcategory: "Productivity tools",
+    description:
+      "Zed is a next-generation code editor designed for high-performance collaboration with humans and AI.",
+    icon: zed_logo,
+    link: "https://zed.dev/",
+  },
+  {
+    title: "Origin UI",
+    category: "Development",
+    subcategory: "UI",
+    description:
+      "Extensive collection of copy-and-paste components for quickly building app UIs.",
+    icon: origin_ui_logo,
+    link: "https://originui.com/",
+  },
+  {
+    title: "Next UI",
+    category: "Development",
+    subcategory: "UI",
+    description:
+      "Make beautiful websites regardless of your design experience. Beautiful, fast and modern React UI library.",
+    icon: next_ui_logo,
+    link: "https://nextui.org/",
+  },
+  {
+    title: "Mintlify",
+    category: "Development",
+    subcategory: "Documentation",
+    description:
+      "Platform designed to create beautiful, dynamic, and user-friendly documentation with ease",
+    icon: mintlify_logo,
+    link: "https://mintlify.com/",
+  },
+  {
+    title: "Resend",
+    category: "Development",
+    subcategory: "Email",
+    description:
+      "Developer-friendly email platform that simplifies sending transactional emails via APIs",
+    icon: resend_logo,
+    link: "https://resend.com/",
+  },
+  {
+    title: "Digital Ocean",
+    category: "Development",
+    subcategory: "Hosting",
+    description:
+      "Cloud infrastructure platform that provides simple, scalable, and cost-effective solutions for developers",
+    icon: digital_ocean_logo,
+    link: "https://www.digitalocean.com/",
+  },
+  {
+    title: "Raycast",
+    category: "Productivity",
+    subcategory: "Tools",
+    description:
+      "A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable",
+    icon: raycast_logo,
+    link: "https://www.raycast.com/",
+  },
+  {
+    title: "Google Font",
+    category: "Design",
+    subcategory: "Fonts",
+    description:
+      "free library of web-optimized fonts that allows designers and developers to easily integrate beautiful typography into their projects.",
+    icon: google_font_logo,
+    link: "https://fonts.google.com/",
+  },
+  {
+    title: "Coolshapes",
+    category: "Design",
+    subcategory: "Shapes",
+    description:
+      "100+ Abstract shapes with cool grainy gradient. Ready to use with any design dev project.",
+    icon: coolshapes_logo,
+    link: "https://coolshap.es/",
+  },
+  {
+    title: "Coolify",
+    category: "Development",
+    subcategory: "Hosting",
+    description:
+      "Self-hosting with superpowers. An open-source & self-hostable Heroku / Netlify / Vercel alternative.",
+    icon: coolify_logo,
+    link: "https://coolify.app/",
+  },
+  {
+    title: "Clerk",
+    category: "Development",
+    subcategory: "Auth",
+    description:
+      "Developer-friendly platform for adding authentication and user management to modern web applications.",
+    icon: clerk_logo,
+    link: "https://clerk.com/",
+  },
+  {
+    title: "Render",
+    category: "Development",
+    subcategory: "Hosting",
+    description:
+      "Modern cloud platform that makes it easy to deploy web apps, APIs, and static sites with minimal configuration.",
+    icon: render_logo,
+    link: "https://render.com/",
+  },
+  {
+    title: "Wix",
+    category: "Development",
+    subcategory: "No Code",
+    description:
+      "user-friendly platform that allows anyone to create stunning websites with drag-and-drop tools and customizable templates",
+    icon: wix_logo,
+    link: "https://www.wix.com/",
+  },
+  {
+    title: "Remix",
+    category: "Development",
+    subcategory: "No Code",
+    description:
+      "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast",
+    icon: remix_logo,
+    link: "https://remix.run/",
+  },
+  {
+    title: "Shipfast",
+    category: "Development",
+    subcategory: "Boilerplate",
+    description:
+      "The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.",
+    icon: shipfast_logo,
+    link: "https://shipfa.st/",
+  },
+  {
+    title: "Expo",
+    category: "Development",
+    subcategory: "Native",
+    description:
+      "Create universal native apps with React that run on Android, iOS, and the web. Iterate with confidence.",
+    icon: expo_logo,
+    link: "https://expo.dev/",
+  },
+  {
+    title: "Three.js",
+    category: "Development",
+    subcategory: "3D",
+    description:
+      "Three.js is a JavaScript library that simplifies the creation of 3D graphics in the browser using WebGL",
+    icon: three_js_logo,
+    link: "https://threejs.org/",
+  },
+  {
+    title: "Aceternity UI",
+    category: "Development",
+    subcategory: "UI",
+    description:
+      "Copy paste libraray for trending components and use them in your websites without having to worry about styling and animations.",
+    icon: aceternity_ui_logo,
+    link: "https://aceternityui.com/",
+  },
+  {
+    title: "D3.js",
+    category: "Development",
+    subcategory: "Visualization",
+    description:
+      "The JavaScript library for data visualization. Create custom dynamic visualizations with unparalleled flexibility",
+    icon: d3_js_logo,
+    link: "https://d3js.org/",
+  },
+  {
+    title: "Perplexity.ai",
+    category: "AI",
+    subcategory: "Search ",
+    description:
+      "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.",
+    icon: perplexity_ai_logo,
+    link: "https://perplexity.ai/",
+  },
+  {
+    title: "Responsively",
+    category: "Development",
+    subcategory: "Tool",
+    description:
+      "Responsively is a developer-focused browser that helps you design and test responsive websites across multiple devices simultaneously",
+    icon: responsively_logo,
+    link: "https://responsively.app/",
+  },
+  {
+    title: "UI Colors",
+    category: "Design",
+    subcategory: "Colors",
+    description:
+      "Tool for generating beautiful, accessible color palettes tailored for modern UI design.",
+    icon: ui_colors_logo,
+    link: "https://uicolors.co/",
+  },
+  {
+    title: "GraphQL Editor",
+    category: "Development",
+    subcategory: "GraphQL",
+    description:
+      "Powerful tool for designing, visualizing, and managing GraphQL schemas with an intuitive interface",
+    icon: graphql_editor_logo,
+    link: "https://graphqleditor.com/",
+  },
+  {
+    title: "Magic UI",
+    category: "Development",
+    subcategory: "UI",
+    description:
+      "50+ free and open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. Perfect companion for shadcn/ui.",
+    icon: magic_ui_logo,
+    link: "https://magic.reactjs.com/",
+  },
+  {
+    title: "Motion Primitives",
+    category: "Development",
+    subcategory: "UI Components",
+    description:
+      "UI kit beautifully designed motions components. Easy copy-paste. Customizable. Open Source. Built for engineers and designers.",
+    icon: motion_primitives_logo,
+    link: "https://motion-primitives.com/",
+  },
+  {
+    title: "Uiverse.io",
+    category: "Development",
+    subcategory: "UI",
+    description:
+      "Community-driven platform that offers a collection of customizable and interactive UI components for developers and designers.",
+    icon: universe_io_logo,
+    link: "https://universe.io/",
+  },
+  {
+    title: "Eva Icons",
+    category: "Design",
+    subcategory: "Icons",
+    description:
+      "Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items",
+    icon: eva_icons_logo,
+    link: "https://akveo.github.io/eva-icons/",
+  },
+  {
+    title: "Documenso",
+    category: "Productivity",
+    subcategory: "Docs",
+    description:
+      "Documenso is an open-source platform for managing and signing documents securely and efficiently",
+    icon: documenso_logo,
+    link: "https://documenso.com/",
+  },
+  {
+    title: "Screen Studio",
+    category: "Productivity",
+    subcategory: "Screen Recorder",
+    description:
+      "Beautiful Screen Recordings in Minutes. Screen Recorder producing high-impact videos automatically. Designed for macOS.",
+    icon: screen_studio_logo,
+    link: "https://screen.studio/",
+  },
+  {
+    title: "Loom",
+    category: "Productivity",
+    subcategory: "Video Recorder",
+    description:
+      "Easily record and share AI-powered video messages with your teammates and customers to supercharge productivity",
+    icon: loom_logo,
+    link: "https://www.loom.com/",
+  },
+  {
+    title: "Animista",
+    category: "Development",
+    subcategory: "Animation",
+    description:
+      "Animista is a web-based tool for creating and customizing CSS animations with ease",
+    icon: animista_logo,
+    link: "https://animista.net/",
   },
 ];
 
