@@ -34,7 +34,7 @@ export default function RootLayout({
                 alt="DevLinks Logo"
                 width={8}
                 height={8}
-                className="w-6 h-6"
+                className="w-5 h-5"
                 priority
               />
               <span className="font-semibold">Resourcely</span>
