@@ -2,7 +2,7 @@
 import LinkCard from "./components/link-card";
 import { links } from "./utils/data/data";
 import SearchBar from "./components/search-bar";
-import { useMemo, useState } from "react";
+import { Suspense, useMemo, useState } from "react";
 import { NotFound } from "./components/not-found";
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -28,7 +28,9 @@ export default function Home() {
 
   return (
     <div className="animate-slideUp">
-      <SearchBar onSearch={handleSearch} initialQuery={searchQuery} />
+      <Suspense>
+        <SearchBar onSearch={handleSearch} initialQuery={searchQuery} />
+      </Suspense>
       {filteredLinks.length > 0 ? (
         <div className="grid grid-cols-1 gap-4 py-4 md:grid-cols-2 xl:grid-cols-3 overflow-y-auto max-h-[calc(100vh-11rem)] sm:max-h-[calc(100vh-9rem)] [&::-webkit-scrollbar]:hidden">
           {filteredLinks.map((link) => (
