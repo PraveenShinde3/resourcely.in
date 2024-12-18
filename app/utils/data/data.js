@@ -63,6 +63,11 @@ import documenso_logo from "../../../public/library/icons/documenso.svg";
 import screen_studio_logo from "../../../public/library/icons/screen-studio.svg";
 import loom_logo from "../../../public/library/icons/loom.svg";
 import animista_logo from "../../../public/library/icons/animista.svg";
+import phosphor_icons_logo from "../../../public/library/icons/phosphor-icons.svg";
+import coolors_logo from "../../../public/library/icons/coolors.svg";
+import wrap_ai_logo from "../../../public/library/icons/wrap-ai.svg";
+import jitter_logo from "../../../public/library/icons/jitter.svg";
+import lottilab_logo from "../../../public/library/icons/lottilab.svg";
 
 const links = [
   {
@@ -649,6 +654,51 @@ const links = [
       "Animista is a web-based tool for creating and customizing CSS animations with ease",
     icon: animista_logo,
     link: "https://animista.net/",
+  },
+  {
+    title: "Phosphor Icons",
+    category: "Design",
+    subcategory: "Icons",
+    description:
+      "Flexible icon library offering a wide range of beautifully designed, customizable icons for web and app development",
+    icon: phosphor_icons_logo,
+    link: "https://phosphoricons.com/",
+  },
+  {
+    title: "Coolors",
+    category: "Design",
+    subcategory: "Colors",
+    description:
+      "Coolors.co is a user-friendly platform for creating, exploring, and sharing stunning color palettes.",
+    icon: coolors_logo,
+    link: "https://coolors.co/",
+  },
+  {
+    title: "Wrap",
+    category: "AI",
+    subcategory: "Terminal",
+    description:
+      "Warp combines AI and your dev teams knowledge in one fast, intuitive terminal.",
+    icon: wrap_ai_logo,
+    link: "https://www.warp.dev/",
+  },
+  {
+    title: "Jitter",
+    category: "Design",
+    subcategory: "Motion Design",
+    description:
+      "Jitter enables creators and teams to easily design stunning animated content and interfaces.",
+    icon: jitter_logo,
+    link: "https://jitter.video/",
+  },
+  {
+    title: "Lottielab",
+    category: "Design",
+    subcategory: "Motion Design",
+    description:
+      "LottieLab is a powerful online tool for creating and editing Lottie animations with ease",
+    icon: lottilab_logo,
+    link: "https://www.lottielab.com/",
   },
 ];
 
