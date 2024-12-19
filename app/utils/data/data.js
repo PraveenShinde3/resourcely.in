@@ -63,6 +63,15 @@ import documenso_logo from "../../../public/library/icons/documenso.svg";
 import screen_studio_logo from "../../../public/library/icons/screen-studio.svg";
 import loom_logo from "../../../public/library/icons/loom.svg";
 import animista_logo from "../../../public/library/icons/animista.svg";
+import phosphor_icons_logo from "../../../public/library/icons/phosphor-icons.svg";
+import coolors_logo from "../../../public/library/icons/coolors.svg";
+import wrap_ai_logo from "../../../public/library/icons/wrap-ai.svg";
+import jitter_logo from "../../../public/library/icons/jitter.svg";
+import lottilab_logo from "../../../public/library/icons/lottilab.svg";
+import seesaw_logo from "../../../public/library/icons/seesaw.svg";
+import uncut_logo from "../../../public/library/icons/uncut.svg";
+import freeface_logo from "../../../public/library/icons/freeface.svg";
+import spline_logo from "../../../public/library/icons/spline.svg";
 
 const links = [
   {
@@ -649,6 +658,87 @@ const links = [
       "Animista is a web-based tool for creating and customizing CSS animations with ease",
     icon: animista_logo,
     link: "https://animista.net/",
+  },
+  {
+    title: "Phosphor Icons",
+    category: "Design",
+    subcategory: "Icons",
+    description:
+      "Flexible icon library offering a wide range of beautifully designed, customizable icons for web and app development",
+    icon: phosphor_icons_logo,
+    link: "https://phosphoricons.com/",
+  },
+  {
+    title: "Coolors",
+    category: "Design",
+    subcategory: "Colors",
+    description:
+      "Coolors.co is a user-friendly platform for creating, exploring, and sharing stunning color palettes.",
+    icon: coolors_logo,
+    link: "https://coolors.co/",
+  },
+  {
+    title: "Wrap",
+    category: "AI",
+    subcategory: "Terminal",
+    description:
+      "Warp combines AI and your dev teams knowledge in one fast, intuitive terminal.",
+    icon: wrap_ai_logo,
+    link: "https://www.warp.dev/",
+  },
+  {
+    title: "Jitter",
+    category: "Design",
+    subcategory: "Motion Design",
+    description:
+      "Jitter enables creators and teams to easily design stunning animated content and interfaces.",
+    icon: jitter_logo,
+    link: "https://jitter.video/",
+  },
+  {
+    title: "Lottielab",
+    category: "Design",
+    subcategory: "Motion Design",
+    description:
+      "LottieLab is a powerful online tool for creating and editing Lottie animations with ease",
+    icon: lottilab_logo,
+    link: "https://www.lottielab.com/",
+  },
+  {
+    title: "SeeSaw",
+    category: "Design",
+    subcategory: "Inspiration",
+    description:
+      "The best web design inspiration. Browse the best of the internet. Hand-picked and updated daily.",
+    icon: seesaw_logo,
+    link: "https://www.seesaw.website/",
+  },
+  {
+    title: "Uncut",
+    category: "Design",
+    subcategory: "Font",
+    description:
+      "platform that showcases meticulously crafted, minimalistic font designs",
+    icon: uncut_logo,
+    link: "https://www.uncut.wtf/",
+  },
+  {
+    title: "Freeface",
+    category: "Design",
+    subcategory: "Font",
+    description:
+      "Free Faces Gallery is a curated collection of high-quality, free-to-use typefaces for designers and creator",
+    icon: freeface_logo,
+    link: "https://freeface.gallery/",
+  },
+  {
+    title: "Spline",
+    category: "Design",
+    subcategory: "Animation",
+    description:
+      "3D design tool that enables creators to design, animate, and collaborate on interactive 3D experiences directly in the browser.",
+    icon: spline_logo,
+    link: "https://spline.design/",
   },
 ];
 

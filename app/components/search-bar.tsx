@@ -1,13 +1,38 @@
+"use client";
+
 import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
+import { useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
+import { useDebounce } from "../hooks/useDebounce";
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
+  initialQuery: string;
 }
 
-export default function SearchBar({ onSearch }: SearchBarProps) {
-  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
-    onSearch(event.target.value);
+export default function SearchBar({ onSearch, initialQuery }: SearchBarProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const [searchQuery, setSearchQuery] = useState(initialQuery);
+  const debouncedSearchQuery = useDebounce(searchQuery, 300);
+
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(event.target.value);
   };
+
+  useEffect(() => {
+    onSearch(debouncedSearchQuery);
+
+    const params = new URLSearchParams(searchParams.toString());
+    if (debouncedSearchQuery) {
+      params.set("query", debouncedSearchQuery);
+    } else {
+      params.delete("query");
+    }
+    if (params.toString() !== searchParams.toString()) {
+      router.push(`?${params.toString()}`, { scroll: false });
+    }
+  }, [debouncedSearchQuery, onSearch, router, searchParams]);
 
   return (
     <div className="relative">
@@ -15,8 +40,9 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
       <input
         type="search"
         placeholder="Search Links..."
-        className="w-full px-4 py-2 pl-10 text-sm border rounded-lg focus:outline-none "
-        onChange={handleSearch}
+        className="w-full px-4 py-2 pl-10 text-sm border rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+        onChange={handleInputChange}
+        value={searchQuery}
       />
     </div>
   );
