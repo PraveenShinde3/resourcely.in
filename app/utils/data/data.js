@@ -68,6 +68,10 @@ import coolors_logo from "../../../public/library/icons/coolors.svg";
 import wrap_ai_logo from "../../../public/library/icons/wrap-ai.svg";
 import jitter_logo from "../../../public/library/icons/jitter.svg";
 import lottilab_logo from "../../../public/library/icons/lottilab.svg";
+import seesaw_logo from "../../../public/library/icons/seesaw.svg";
+import uncut_logo from "../../../public/library/icons/uncut.svg";
+import freeface_logo from "../../../public/library/icons/freeface.svg";
+import spline_logo from "../../../public/library/icons/spline.svg";
 
 const links = [
   {
@@ -699,6 +703,42 @@ const links = [
       "LottieLab is a powerful online tool for creating and editing Lottie animations with ease",
     icon: lottilab_logo,
     link: "https://www.lottielab.com/",
+  },
+  {
+    title: "SeeSaw",
+    category: "Design",
+    subcategory: "Inspiration",
+    description:
+      "The best web design inspiration. Browse the best of the internet. Hand-picked and updated daily.",
+    icon: seesaw_logo,
+    link: "https://www.seesaw.website/",
+  },
+  {
+    title: "Uncut",
+    category: "Design",
+    subcategory: "Font",
+    description:
+      "platform that showcases meticulously crafted, minimalistic font designs",
+    icon: uncut_logo,
+    link: "https://www.uncut.wtf/",
+  },
+  {
+    title: "Freeface",
+    category: "Design",
+    subcategory: "Font",
+    description:
+      "Free Faces Gallery is a curated collection of high-quality, free-to-use typefaces for designers and creator",
+    icon: freeface_logo,
+    link: "https://freeface.gallery/",
+  },
+  {
+    title: "Spline",
+    category: "Design",
+    subcategory: "Animation",
+    description:
+      "3D design tool that enables creators to design, animate, and collaborate on interactive 3D experiences directly in the browser.",
+    icon: spline_logo,
+    link: "https://spline.design/",
   },
 ];
 
